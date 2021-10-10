@@ -1,0 +1,32 @@
+#company{
+background-image: linear-gradient(to right, white, blue);
+background-color: #cccccc;
+height: 71px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+font-size: 30px; 
+font-family: cambria; 
+}
+#frist {
+   background-color: #ADD8E6;
+   font-style: italic;
+}
+a:hover {
+ background-color: white;
+}
+nav ul li {
+ list-style: none;
+}
+nav ul li {
+ list-style: none;
+ display: inline;
+ margin: 1em;
+}
+nav {
+ padding: 0.25em;
+}
+nav a {
+ padding: 0.25em;
+}

@@ -4,7 +4,7 @@
 <head>
     <link rel ="stylesheet" href= "CSS/page3.css"/>
     <meta charset ="utf-8">
-    <title> Donations-Teardrop</title>  
+    <title> Donations-Tear Drop</title>  
 </head>
 <body>
     <header>
@@ -12,9 +12,99 @@
        <img  src="image/Teardrop-logo.PNG" align="left" width ="50" height="70"/> 
          <h1 >Tear Drop</h1>
         </div>
+         <nav >
+        <ul id="frist">
+        <li><a>Menu:</a></li>
+        <li><a href="main%20page.html" >Main Page</a></li>
+        <li><a href="page2.html" > About Us</a></li>
+        </ul> 
+      </nav>
     </header>
-        
+    <article>
+        <h1> Donations Every dollar makes a differrence </h1>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <section>
+                <p> Frist Name <br>
 
+                    <input name="name" type="text" pattern="[a-z]"/>
+
+                </p>
+
+                <p> Last Name <br>
+
+                    <input name="name" type="text" pattern="[a-z]"/>
+
+                </p>
+            </section>
+            <section>
+                <p> Location <br>
+                  <input type="street" 
+                         class="form-control" 
+                         id="autocomplete" 
+                          placeholder="address"
+                          pattern="[a-z 0-9]"/>
+                  <input type="city" 
+                         class="form-control" 
+                         placeholder="City"
+                         pattern="[a-z]"/>
+
+                  <input type="state" 
+                         class="form-control" 
+                         id="inputState" 
+                         placeholder="Province"
+                         pattern="[a-z]"/>
+
+                  <input type="zip" 
+                         class="form-control" 
+                         id="inputZip" 
+                         placeholder="Postal Code"
+                         pattern="[a-z 0-9]"/>
+
+                  <input type="country" 
+                         class="form-control" 
+                         id="inputCountry" 
+                         placeholder="Country"
+                         pattern="[a-z]"/>
+                    <br> <br> <br>
+
+                </p>
+            </section>
+                <p>  Phone Number <br>
+                    <input name="tel" type ="tel" pattern ="[a-z]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="xxx-xxx-xxx"/>
+
+                </p> 
+            <section>
+                <p> Email Address <br> 
+                    <input id ="email "name ="email" type ="email"  pattern="[a-z0-9.%+-_#$%^&*()]+@[z0-9.-]+\.[a-z]{2,4}$"/>
+                </p>
+            </section>
+            <section>
+                <p> Brith Date <br>
+                    <input name ="dte" type ="date"/>
+                </p>
+            </section>
+            <section>
+                <p> Keep me updated <input type="checkbox" id="upup" name="update" value="up"></p>
+            </section>
+            <section>
+               <p> One Time <input type="radio" id="html" name="time" value="HTML"></p> <p> Monthly <input type="radio" id="css" name="time" value="CSS"></p>
+            </section>
+            <section>
+                <input name ="Clear" type="reset"/>
+                <input name ="Submit" type="submit"/>
+            </section>
+        </form>
+        <footer id="foot">
+           <h4> Social Media </h4> 
+            <a href="https://www.instagram.com/"> <img src="image/ig-logo.png" width="30" height="30" alt="instagram"> </a>
+            <a href="https://twitter.com/?lang=en"> <img  src="image/twitter-logo.png" width="30" height="30" alt="twitter"> </a>
+           <h4> Contact Us</h4>
+            <p class="contact"> Phone Number: 403-555-9009</p>
+            <p class="contact"> Email: teardrop@tear.com</p>
+        
+        </footer>
+    </article>
+        
 </body>   
 
 </html>

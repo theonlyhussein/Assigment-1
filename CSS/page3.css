@@ -9,3 +9,62 @@ position: relative;
 font-size: 30px; 
 font-family: cambria;
 }
+input, label {
+  margin: 5px 5px;
+}
+
+.form-group {
+  margin: 30px auto;
+  width: 450px;
+}
+
+.form-control {
+  float: left;
+}
+
+#inputStreet {
+  width: 100%;
+}
+
+#inputCity {
+  width: 50%;
+}
+
+#inputState {
+  width: 15%;
+}
+
+#inputZip {
+  width: 28%;
+}
+
+
+
+#inputCountry {
+  width: 50%;
+}
+#frist {
+   background-color: #ADD8E6;
+   font-style: italic;
+}
+a:hover {
+ background-color: white;
+}
+nav ul li {
+ list-style: none;
+}
+nav ul li {
+ list-style: none;
+ display: inline;
+ margin: 1em;
+}
+nav {
+ padding: 0.25em;
+}
+nav a {
+ padding: 0.25em;
+}
+# foot{
+    background-color: lightblue;
+}
+
