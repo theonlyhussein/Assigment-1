@@ -1,0 +1,10 @@
+#company{
+background-image: linear-gradient(to right, white, blue);
+background-color: #cccccc;
+height: 71px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+font-size: 30px; 
+}
