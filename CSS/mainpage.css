@@ -30,3 +30,6 @@ nav {
 nav a {
  padding: 0.25em;
 }
+a:visited{
+    color:white;
+}

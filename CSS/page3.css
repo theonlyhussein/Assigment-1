@@ -37,6 +37,9 @@ input, label {
 #inputZip {
   width: 28%;
 }
+a:visited{
+    color:white;
+}
 
 
 
@@ -64,7 +67,9 @@ nav {
 nav a {
  padding: 0.25em;
 }
-# foot{
-    background-color: lightblue;
+ .foot{
+    background-color: blue;
+    color: white;
 }
+
 

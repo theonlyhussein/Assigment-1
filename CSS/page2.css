@@ -30,3 +30,28 @@ nav {
 nav a {
  padding: 0.25em;
 }
+ .foot{
+    background-color: blue;
+    color: white;
+}
+a:visited{
+    color:white;
+}
+
+#div::first-letter {
+  font-size: 200%;
+  
+}
+table {
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+figure {
+  float: right;
+}
