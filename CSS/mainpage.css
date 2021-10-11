@@ -36,3 +36,7 @@ a:visited{
 a[traget="href"]{
     background-color: blue;
 }
+ .foot{
+    background-color: blue;
+    color: white;
+}
