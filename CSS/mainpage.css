@@ -33,3 +33,6 @@ nav a {
 a:visited{
     color:white;
 }
+a[traget="href"]{
+    background-color: blue;
+}
