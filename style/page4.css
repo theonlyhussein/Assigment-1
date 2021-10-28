@@ -40,3 +40,9 @@
         background-color:  #66B2FF;
         color: white;
     }
+    form {
+        display: inline-block;
+      }
+      #hand {
+        display: inline-block; 
+      }
