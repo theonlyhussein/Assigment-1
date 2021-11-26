@@ -1,20 +1,32 @@
 #company{
-background-image: linear-gradient(to right, white, blue);
-background-color: #cccccc;
-height: 71px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-font-size: 30px; 
+background-image: linear-gradient(to right, blue, black);
 font-family: cambria; 
 }
 #frist {
-   background-color: #ADD8E6;
+  
    font-style: italic;
+    float:right;
 }
+h3{
+    text-align: center;
+}
+
+#solgan{
+    background-color: #66B2FF; 
+}
+#clean{
+    border-style: solid;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+ 
+}
+
 a:hover {
- background-color: black;
+ background-color: darkblue;
+    text-decoration-color: white;
 }
 nav ul li {
  list-style: none;
@@ -23,6 +35,9 @@ nav ul li {
  list-style: none;
  display: inline;
  margin: 1em;
+}
+li{
+    text-decoration-color: snow;
 }
 nav {
  padding: 0.25em;
@@ -33,6 +48,9 @@ nav a {
  .foot{
     background-color: #66B2FF;
     color: white;
+}
+ul{
+    text-decoration-color: blue;
 }
 a:visited{
     color:white;
@@ -48,13 +66,108 @@ table {
 }
 
 th, td {
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
-figure {
-  float: right;
+ a[traget="href"]{
+        background-color: #3F00FF;
+        border-radius: 0.2em;
+    }
+
+.aligncenter{
+    text-align: center;
 }
-a[traget="href"]{
-    background-color: blue;
+.grid-container{
+    padding-right: 200px;
+    padding-left: 200px;
 }
+.box1{
+    background-color:  #f1f1f1;
+    margin: 10px;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2{
+    background-color:  #f1f1f1;
+    margin: 10px;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-color:  #f1f1f1;
+   margin: 10px;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box4{
+    background-color:  #f1f1f1;
+    margin: 10px;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box{
+     width=100%;
+    height: 300px;
+    
+}
+@media screen and (max-width: 700px){ /*midum size*/
+.grid-container{
+     display: grid;
+    grid-template-columns: repeat(2,2fr);
+    
+}
+
+
+}
+@media screen and (max-width: 980px){ /*large size*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    
+}
+   
+}
+#text1{
+    background-color: lightgrey; 
+    background-clip:content-box;
+     padding-left: 200px;
+  padding-right:200px;
+}
+#text2{
+    background-color: lightgrey;  
+    background-clip:content-box;
+     padding-left: 200px;
+  padding-right:200px;
+}
+#text3{ 
+    background-color: lightgrey;
+    width: 72.9%;
+    height: 100px;
+    padding:10x;
+    align-self: center;
+    resize: none;
+
+}
+textarea{
+    width: auto;
+    height: auto;
+}
+input{  
+ position:absolute; 
+    right:210px;   
+}
+hr{
+    width: 1000px;
+    justify-items: center;
+}
+
+
+
+
+
+
+
