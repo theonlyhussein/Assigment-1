@@ -40,3 +40,76 @@ a[traget="href"]{
     background-color:  #66B2FF;
     color: white;
 }
+
+/*
+.frame {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+  }
+  img {width: 100%}
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .img-container {
+    text-align: center;
+    display: block;
+  }
+  .element {
+    object-fit: fill;
+}
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+*/
+  
+  .image-with-text {
+    width:200px;
+    height:200px;
+    
+  }
+  .row{
+    margin: 20px auto;
+  
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+   } .form{
+      background-color:#333;
+      padding:20px;
+      border-radius:10px;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:40px;
+      font-family:sans-serif;
+      
+  
+  }
+
+  .main {
+    align-content: center;
+  }
+
+
+  .center {
+    margin: auto;
+    width: 66%;
+    border: 5px solid #1b18c9;
+    padding: 15px;
+  }
