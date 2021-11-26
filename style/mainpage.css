@@ -1,20 +1,32 @@
 #company{
-background-image: linear-gradient(to right, white, blue);
-background-color: #cccccc;
-height: 71px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-font-size: 30px; 
+background-image: linear-gradient(to right, blue, black);
 font-family: cambria; 
 }
 #frist {
-   background-color: #ADD8E6;
+  
    font-style: italic;
+    float:right;
 }
+h3{
+    text-align: center;
+}
+
+#solgan{
+    background-color: #66B2FF; 
+}
+#clean{
+    border-style: solid;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+ 
+}
+
 a:hover {
- background-color: black;
+ background-color: darkblue;
+    text-decoration-color: white;
 }
 nav ul li {
  list-style: none;
@@ -24,17 +36,24 @@ nav ul li {
  display: inline;
  margin: 1em;
 }
+li{
+    text-decoration-color: snow;
+}
 nav {
  padding: 0.25em;
 }
 nav a {
  padding: 0.25em;
 }
+ .foot{
+    background-color: #66B2FF;
+    color: white;
+}
+ul{
+    text-decoration-color: blue;
+}
 a:visited{
     color:white;
-}
-a[traget="href"]{
-    background-color: blue;
 }
  .foot{
     background-color:  #66B2FF;
@@ -113,3 +132,7 @@ a[traget="href"]{
     border: 5px solid #1b18c9;
     padding: 15px;
   }
+a[traget="href"]{
+        background-color: #3F00FF;
+        border-radius: 0.2em;
+    }
