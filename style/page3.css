@@ -1,58 +1,71 @@
 #company{
-background-image: linear-gradient(to right, white, blue);
-background-color: #cccccc;
-height: 71px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-font-size: 30px; 
-font-family: cambria;
+background-image: linear-gradient(to right, blue, black);
+font-family: cambria; 
 }
-input, label {
-  margin: 5px 5px;
+#frist {
+  
+   font-style: italic;
+    float:right;
+}
+h3{
+    text-align: center;
 }
 
-.form-group {
-  margin: 30px auto;
-  width: 450px;
+#solgan{ 
+    background-color: #66B2FF;
 }
+#clean{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 
-.form-control {
-  float: left;
+ 
 }
-
-#inputStreet {
-  width: 100%;
+a[traget="href"]{
+        background-color: #3F00FF;
+        border-radius: 0.2em;
+    }
+a:hover {
+ background-color: darkblue;
+    text-decoration-color: white;
 }
-
-#inputCity {
-  width: 50%;
+nav ul li {
+ list-style: none;
 }
-
-#inputState {
-  width: 15%;
+nav ul li {
+ list-style: none;
+ display: inline;
+ margin: 1em;
 }
-
-#inputZip {
-  width: 28%;
+li{
+    text-decoration-color: snow;
+}
+nav {
+ padding: 0.25em;
+}
+nav a {
+ padding: 0.25em;
+}
+ .foot{
+    background-color: #66B2FF;
+    color: white;
+}
+ul{
+    text-decoration-color: blue;
 }
 a:visited{
     color:white;
 }
 
-
+form{
+    display: inline-block;
+}
 
 #inputCountry {
   width: 50%;
 }
-#frist {
-   background-color: #ADD8E6;
-   font-style: italic;
-}
-a:hover {
- background-color: black;
-}
+
 nav ul li {
  list-style: none;
 }
@@ -67,11 +80,24 @@ nav {
 nav a {
  padding: 0.25em;
 }
- .foot{
-    background-color:  #66B2FF;
-    color: white;
-}
-a[traget="href"]{
-    background-color: blue;
-}
 
+
+
+#center{
+    text-align: center;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: DodgerBlue;
+   margin-left: 200px;
+  margin-right: 200px;  
+
+}
+form{
+    width:50%;
+}
+#background{
+    width:50%;
+}
